@@ -1,0 +1,3 @@
+opencode scripts (2)
+docs/testing/test_scenario/scenario_sprint_1_qcvmt_login/conftest.py
+docs/testing/test_scenario/scenario_sprint_1_qcvmt_login/test_login.py
