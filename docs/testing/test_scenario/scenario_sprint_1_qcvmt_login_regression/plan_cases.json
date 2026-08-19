@@ -1,0 +1,28 @@
+{
+  "schema_version" : 1,
+  "exported_at" : "2026-08-19T16:38:04.067681894",
+  "cases" : [ {
+    "id" : "1f5f5e7d-2e8f-4401-a318-172127e8ad9a",
+    "test_case_id" : "BL-25503",
+    "case_name" : "qcvmt login",
+    "module" : "login",
+    "scenario" : "qcvnt login",
+    "priority" : "P0",
+    "status" : "Active",
+    "title" : "qcvmt login",
+    "test_type" : "Functional",
+    "pre_condition" : "login qcvmt",
+    "test_script" : "open https://qcvmt.getsvc.com/\nlogin with user name: admin. password: 123456, qc id QC86",
+    "expected_result" : "can be open\nlogin success",
+    "updated_by" : "tony.z.ye",
+    "updated_at" : "2026-08-19T06:54:34.491Z",
+    "data_set" : "[{\"fields\": [{\"field_name\": \"UserName\", \"field_order\": 1, \"field_value\": \"admin\"}, {\"field_name\": \"Password\", \"field_order\": 2, \"field_value\": \"123456\"}, {\"field_name\": \"QC Number\", \"field_order\": 3, \"field_value\": \"qc86\"}], \"set_name\": \"Data Set 1\", \"set_order\": 1}]",
+    "related_story" : "",
+    "platform" : "Web",
+    "source" : "Manual"
+  } ],
+  "plan_id" : "b874c90d3b35b7819da53316db2733d6",
+  "regression_plan_name" : "Sprint 1 - QCVMT login regression",
+  "source_query" : "plan-detail-push",
+  "case_count" : 1
+}
