@@ -1,7 +1,26 @@
 {
   "schema_version" : 5,
-  "exported_at" : "2026-08-19T14:58:57.366523945",
+  "exported_at" : "2026-08-19T17:10:42.131207313",
   "cases" : [ {
+    "id" : "c45094a1-cfc2-42a7-998b-2da826233de5",
+    "test_case_id" : "BL-24172",
+    "case_name" : "操作员查看指定岸桥的实时作业视图",
+    "module" : "岸桥终端监控",
+    "scenario" : "终端显示 - 正常",
+    "priority" : "P0",
+    "status" : "Active",
+    "title" : "操作员查看指定岸桥的实时作业视图",
+    "test_type" : "Functional",
+    "pre_condition" : "已登录操作员账号；系统已配置船舶贝位结构；N4系统连接正常；已分配QC编号{{qc_id}}",
+    "test_script" : "1. 登录后访问QC终端页面{{qc_terminal_url}}；2. 系统自动根据QC编号{{qc_id}}查询N4系统作业队列；3. 查看贝位视图表格",
+    "expected_result" : "1. QC终端页面成功加载；2. 系统返回该岸桥的作业数据；3. 正确显示贝位矩阵、集装箱位置和剩余数量",
+    "updated_by" : "tony.z.ye",
+    "updated_at" : "2026-08-19T09:10:25Z",
+    "data_set" : null,
+    "dataSet" : null,
+    "test_data_sets" : null,
+    "platform" : "Web"
+  }, {
     "id" : "1f5f5e7d-2e8f-4401-a318-172127e8ad9a",
     "test_case_id" : "BL-25503",
     "case_name" : "qcvmt login",
@@ -164,8 +183,8 @@
     "test_data_sets" : null,
     "platform" : "Web"
   } ],
-  "plan_id" : "933324ad-8cb0-4529-86a2-03b2e3cb77b6",
+  "plan_id" : "da1be9be-76f2-4941-b57e-d32cac46e246",
   "regression_plan_name" : "Baseline-Library-2026-08-19",
   "source_query" : "baseline-library-push",
-  "case_count" : 6
+  "case_count" : 7
 }
