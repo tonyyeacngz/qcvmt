@@ -1,0 +1,5 @@
+opencode scripts (4)
+docs/testing/test_scenario/scenario_sprint_1_qcvmt_login_regression/settings.py
+docs/testing/test_scenario/scenario_sprint_1_qcvmt_login_regression/test_data.json
+docs/testing/test_scenario/scenario_sprint_1_qcvmt_login_regression/conftest.py
+docs/testing/test_scenario/scenario_sprint_1_qcvmt_login_regression/test_login.py
