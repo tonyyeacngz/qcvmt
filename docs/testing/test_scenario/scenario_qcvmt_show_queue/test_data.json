@@ -1,0 +1,16 @@
+{
+  "BL-25503": [
+    {
+      "set_name": "Default Admin Login",
+      "UserName": "admin",
+      "Password": "123456",
+      "QC Number": "86"
+    }
+  ],
+  "BL-24172": [
+    {
+      "set_name": "QC86 Terminal Monitor",
+      "qc_id": "86"
+    }
+  ]
+}
