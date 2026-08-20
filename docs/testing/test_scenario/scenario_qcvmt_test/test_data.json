@@ -1,0 +1,27 @@
+{
+  "BL-25503": [
+    {
+      "set_name": "Data Set 1",
+      "set_order": 1,
+      "UserName": "admin",
+      "Password": "123456",
+      "QC Number": "58"
+    }
+  ],
+  "BL-24178": [
+    {
+      "set_name": "Default Set",
+      "set_order": 1,
+      "qc_id": "58",
+      "qc_terminal_url": "https://qcvmt.getsvc.com/"
+    }
+  ],
+  "BL-24172": [
+    {
+      "set_name": "Default Set",
+      "set_order": 1,
+      "qc_id": "58",
+      "qc_terminal_url": "https://qcvmt.getsvc.com/"
+    }
+  ]
+}
